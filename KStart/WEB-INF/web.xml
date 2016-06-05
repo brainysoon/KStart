@@ -22,4 +22,15 @@
   version="3.0"
   >
 
+  <!--Servlet名称-->
+  <servlet>
+    <servlet-name>firstServlet</servlet-name>
+    <servlet-class>firstServlet</servlet-class>
+  </servlet>
+
+  <!--Servlet 映射-->
+  <servlet-mapping>
+    <servlet-name>firstServlet</servlet-name>
+    <url-pattern>/firstServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
