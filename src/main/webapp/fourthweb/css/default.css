@@ -1,0 +1,30 @@
+body{
+  background-image:url(../images/slider.jpg);
+  margin:0;
+  padding:0;
+}
+header{
+  margin: 30px;
+}
+ul{
+  list-style-type:none; //清除 无序列表的。
+}
+li{
+  float:right; //平放导航栏
+}
+a{
+  display:block;
+  color:white;
+  width:80px;
+  text-decoration:none; //消除下划线
+}
+a:hover{
+  color:blue;
+}
+img{
+  display: block;
+  width:100px;
+  height:100px;
+  float: left;
+  margin: 80px;
+}
