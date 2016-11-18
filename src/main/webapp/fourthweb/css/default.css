@@ -1,30 +1,57 @@
 body{
   background-image:url(../images/slider.jpg);
-  margin:0;
-  padding:0;
 }
+
+/*头部*/
 header{
-  margin: 30px;
+  width:300px;
 }
-ul{
-  list-style-type:none; //清除 无序列表的。
-}
-li{
-  float:right; //平放导航栏
-}
-a{
-  display:block;
+header h1{
+  position: relative;
+  margin:60px;
   color:white;
+}
+/*导航栏*/
+nav{
+  float: right;
+  margin:30px;
+}
+nav li{
+  float:left;
+  list-style-type:none;
+}
+nav a{
+  display:block;
   width:80px;
-  text-decoration:none; //消除下划线
+  color:white;
+  text-decoration:none;
 }
-a:hover{
-  color:blue;
+nav a:hover{
+  color:#B0C4DE;
 }
-img{
-  display: block;
+/*我的信息*/
+aside{
+  float:left;
+  margin: 60px;
+  width:300px;
+}
+#avator img{
+  border-width:3px;
+  border-style:solid;
+  border-color:white;
   width:100px;
   height:100px;
-  float: left;
-  margin: 80px;
+}
+.detail_key{
+  color:white;
+}
+.detail_value{
+  color:#7EC0EE;
+}
+/*内容*/
+.article_title{
+  color:white;
+}
+.article_content{
+  color:white;
 }

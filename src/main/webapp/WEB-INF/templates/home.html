@@ -2,26 +2,39 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="utf-8" />
-  <script src="../js/default.js" th:src="@{/fourthweb/js/default.js}"></script>
-  <link rel="stylesheet" type="text/css" href="../css/default.css"
-  th:href="@{/fourthweb/css/default.css}"/>
+  <script src="../../fourthweb/js/default.js" th:src="@{/fourthweb/js/default.js}"></script>
+  <link rel="stylesheet" type="text/css" href="../../fourthweb/css/default.css" th:href="@{/fourthweb/css/default.css}"/>
 
   <title>聪聪小可爱</title>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="#" th:href="">首页</a></li>
+      <li><a href="#" th:href="">兴趣</a></li>
+      <li><a href="#" th:href="">技能</a></li>
+      <li><a href="#" th:href="">作品</a></li>
+      <li><a href="#" th:href="">我在这儿</a></li>
+    </ul>
+  </nav>
   <header>
     <h1>聪聪小可爱</h1>
   </header>
-  <nav>
-    <ul>
-      <li><a href="#" th:href="#">首页</a></li>
-      <li><a href="#" th:href="#">兴趣</a></li>
-      <li><a href="#" th:href="#">技能</a></li>
-      <li><a href="#" th:href="#">作品</a></li>
-      <li><a href="#" th:href="#">我在这儿</a></li>
-    </ul>
-  </nav>
   <aside>
-    <img src="../images/avator.jpg" th:src="@{/fourthweb/images/avator.jpg}" />
+
+    <div id="avator">
+      <img src="../../fourthweb/images/avator.jpg" th:src="@{/fourthweb/images/avator.jpg}" />
+    </div>
+
+    <div id="info">
+      <p class="detail_key">姓名：<span class="detail_value">孙晓聪</span></p>
+      <p class="detail_key">邮箱：<span class="detail_value">brainysoon@gmail.com</span></p>
   </aside>
+
+  <section>
+    <article>
+      <h2 class="article_title">文章题目</h2>
+      <p class="article_content">文章内容</p>
+    </article>
+  </section>
 </body>
